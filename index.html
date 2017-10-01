@@ -5,16 +5,30 @@
 		<title>Project: Event Invite</title>
 		<style>
 			body {
-				background: rgb(200, 200, 200);
-				font-family: cursive, sans-serif;
+				background: grey;
+				font-family: fantasy;
 			}
 			h1 {
-				color: rgb(0, 255, 68);
+				color: rgb(0, 255, 5);
 				font-size: 50px;
 				text-align: center;
 			}
+			.car {
+				display: block;
+				margin: auto;
+				border: 15px ridge rgb(100, 100, 100);
+			}
 			h2 {
 				color: rgb(0, 200, 70);
+			}
+			.detail {
+				background: silver;
+			}
+			#detail {
+				width: 550px;
+				margin: auto;
+				border: 10px groove rgb(100, 100, 100);
+				padding: 10px;
 			}
 			h3 {
 				color: rgb(200, 255, 0);
@@ -25,12 +39,25 @@
 				font-family: sans-serif;
 				font-size: 10px;
 			}
+			#fine-print {
+				font-size: 15px;
+				text-align: center;
+			}
+			h4 {
+				color: rgb(0, 200, 0);
+				font-weight: bold;
+				font-size: 15px;
+			}
+			#logo {
+				border: 15px double rgb(50, 50, 50);
+			}
 		</style>
 	</head>
 	<body>
 		<h1>PIERCE MOBILE DETAIL</h1>
-			<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Car-wash-01.jpg/220px-Car-wash-01.jpg" width = "350">
-		<h2>PRICING DETAIL</h2>
+			<img class = "car" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Car-wash-01.jpg/220px-Car-wash-01.jpg" width = "350">
+		<br>
+		<div class = "detail" id = "detail"><h2>PRICING DETAIL</h2>
 		<h3>Inside + Outside:<br> Wash and Vacuum</h3>
 		<ul>
 			<li>$20+ for Cars
@@ -41,12 +68,13 @@
 			<li>$50+ for Cars
 			<li>$65+ for SUVs, Trucks and Vans
 		</ul>
-		<p><em>(spot cleaning available upon request!)</em><br>
-		<br>Drop by! We'll also come to you!!</p>
-		
+		<p id = "fine-print">Drop on by! We'll also come to you!!</p>
+		<br>
+		<p><em>(spot cleaning available upon request!)</em></p></div>
+		<br>
 		<h4>PIERCE MOBILE DETAIL</h4>
-		<img src = "C:\Users\Chemeka\Downloads\pmdwings.png">
-		<p>158 Paper Mill Rd, Lawrenceville, GA 30046<br>
+		<img id = "logo" src = "C:\Users\Chemeka\Downloads\pmdwings.png">
+		<p>158 Paper Mill Rd,<br>Lawrenceville, GA 30046<br>
 		(678) 769-9196</p>
 	</body>
 </html>
