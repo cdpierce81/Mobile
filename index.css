@@ -1,0 +1,186 @@
+* {
+	margin: 0;
+	font-family: Helvetica, sans-serif;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+html {
+	display: block;
+}
+
+html, body, div, span {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	border: 0;
+	outline: 0;
+}
+
+body {
+	color: black;
+}
+
+.site {
+	max-width: 880px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+h1 {
+	margin: 100px auto;
+	padding: 10px 0 10px 0;
+	font-size: 30px;
+	text-align: center;
+	color: DarkRed;
+}
+
+h3 {
+	padding: 10px;
+	font-weight: bold;
+	background-color: rgba(150, 0, 0, 1);
+}	
+
+p {
+	font-size: 10px;
+	color: DarkRed;
+}
+
+h3, p {
+	text-align: center;
+}
+
+.detail ul {
+	padding: 15px;
+}
+
+h3, #detail {
+	box-shadow: 10px 10px 5px Black;	
+}
+
+#detail {
+	background-color: rgba(130, 0, 0, 0.5); /* Black w/ opacity */
+	color: white;
+	width: 50%;
+	margin: 75px auto;
+	padding: 10px;
+}
+
+.car {
+	background-image: url("https://vimg.remorainc.com/jj5/2t1burhexjc049151/2018-toyota-corolla-se-barcelona-red-metallic-0.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+
+#fine-print {
+	font-size: 15px;
+	text-align: center;
+}
+
+.contact {
+	padding: 50px;
+	color: white;
+}
+
+ul {
+	list-style: disc;
+}
+
+ul, ol {
+	margin: 0 0 1.6em 1.6em;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+li {
+	text-align: -webkit-match-parent;
+}
+
+a:-webkit-any-link {
+	cursor: pointer;
+}
+
+.media {
+	text-align: center;
+	padding: 50px;
+}
+
+.jetpack-social-navigation {
+	clear: both;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.jetpack-social-navigation ul {
+	display: block;
+	margin: 0 0 1.5em;
+	padding: 0;
+}
+
+.jetpack-social-navigation ul li {
+	display: inline-block;
+	background: linear-gradient(Black, Red);
+	color: white;
+	font-size: 14px;
+	list-style: none;
+	line-height: .5;
+	margin: .2em .1em;
+	padding: 8px;
+	border-radius: 50%;
+}
+
+.jetpack-social-navigation a {
+	border: 0;
+	height: 1em;
+	width: 1em;
+}
+
+.jetpack-social-navigation ul a, .jetpack-social-navigation ul a:visited {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	transition: color .2s;
+}
+
+.jetpack-social-navigation-svg .icon {
+	color: inherit;
+	fill: currentColor;
+	height: 1em;
+	vertical-align: middle;
+	width: 1em;
+}
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	left: -1000em;
+}
+
+.menu-item-11:hover, .menu-item-12:hover, .menu-item-13:hover, .menu-item-14:hover {
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5);
+}
+
+.map {
+	margin: auto;
+	text-align: center;
+	border: 2px ridge DarkRed;
+	width: 200px;
+}
+
+iframe {
+	width: 100%;
+}
