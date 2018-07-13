@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .site {
 	margin: auto;
-    padding-right: 2%;
+	padding-right: 2%;
     padding-left: 2%;
 }
 
@@ -276,4 +276,10 @@ img {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     font-weight: bold;
+}
+
+@media only screen and (min-width: 700px) {
+	.car {
+		width: 700px;
+	}
 }
