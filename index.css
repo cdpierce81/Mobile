@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: .5;
     margin: .2em .1em;
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 30%;
 }
 
 .jetpack-social-navigation ul a, .jetpack-social-navigation ul a:visited {
