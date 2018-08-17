@@ -261,6 +261,11 @@ img {
 	padding: 15px;
 }
 
+.video {
+	margin: 100px;
+	text-align: center;
+}
+
 .contact {
 	padding: 50px 5px 5px 5px;
 	text-align: center;
